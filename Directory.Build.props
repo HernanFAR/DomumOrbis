@@ -1,0 +1,14 @@
+<Project>
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<Authors>AtomDev</Authors>
+
+	</PropertyGroup>
+
+	<ItemGroup Condition="'$(MsBuildProjectName)' != 'Tests'">
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+			<_Parameter1>Tests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+</Project>

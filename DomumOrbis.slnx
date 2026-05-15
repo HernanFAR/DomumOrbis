@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="readme.md" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="DomumOrbis/DomumOrbis.csproj" />
+  </Folder>
+  <Folder Name="/src/Helpers/" />
+  <Folder Name="/src/Helpers/Common/">
+    <Project Path="Helpers/Common/CommonContext.Domain/CommonContext.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Products/">
+    <Project Path="Services/Inventory/InventoryContext.Domain/InventoryContext.Domain.csproj" Id="6bd383f3-4a02-447a-8065-f128e4807265" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/VSlices/" />
+</Solution>
