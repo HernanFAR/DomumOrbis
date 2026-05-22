@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace InventoryContext.Aggregates;
 
-namespace InventoryContext.Domain.Aggregates.InventoryItems;
-
-internal class InventoryItem
+public sealed record Product(ProductId Id)
 {
 }

@@ -3,6 +3,16 @@
     <File Path="Directory.Build.props" />
     <File Path="readme.md" />
   </Folder>
+  <Folder Name="/Solution Items/Docs/" />
+  <Folder Name="/Solution Items/Docs/Iteración 1/">
+    <File Path="Docs/Iteración 1/Vista de casos de uso.md" />
+    <File Path="Docs/Iteración 1/Vista de logica.md" />
+    <File Path="Docs/Iteración 1/Vista de procesos.md" />
+    <File Path="Docs/Iteración 1/[PRELIMINAR] Vista de casos de uso.md" />
+  </Folder>
+  <Folder Name="/Solution Items/Docs/Iteración 1/Escenarios de trabajo/">
+    <File Path="Docs/Iteración 1/Escenarios de trabajo/Gestión de productos del hogar.md" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="DomusOrbis/DomusOrbis.csproj" />
   </Folder>
@@ -10,7 +20,8 @@
   <Folder Name="/src/Helpers/Common/">
     <Project Path="Helpers/Common/CommonContext.Domain/CommonContext.Domain.csproj" />
   </Folder>
-  <Folder Name="/src/Products/">
+  <Folder Name="/src/Products/" Id="984bb9b3-3fa3-be33-9484-cac21695a33c" />
+  <Folder Name="/src/Products/Inventory/">
     <Project Path="Services/Inventory/InventoryContext.Domain/InventoryContext.Domain.csproj" Id="6bd383f3-4a02-447a-8065-f128e4807265" />
   </Folder>
   <Folder Name="/src/Services/" />
