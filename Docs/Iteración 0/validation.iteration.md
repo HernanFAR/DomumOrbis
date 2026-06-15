@@ -1,4 +1,5 @@
 ---
+
 id: validation.iteration
 type: validation-note
 status: draft
@@ -7,6 +8,7 @@ related:
 target-type: artifact
 artifact: [monthly-shopping-list](building/artifact.monthly-shopping-list.yaml)
 method: [domain-expert-review, user-feedback]
+
 ---
 
 <!--
