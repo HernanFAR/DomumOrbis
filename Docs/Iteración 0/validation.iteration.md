@@ -7,7 +7,9 @@ related:
   - <optional-related-artifact-id>
 target-type: artifact
 artifact: [monthly-shopping-list](building/artifact.monthly-shopping-list.yaml)
-method: [domain-expert-review, user-feedback]
+method: 
+  - domain-expert-review
+  - user-feedback
 
 ---
 
