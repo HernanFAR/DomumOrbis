@@ -3,11 +3,12 @@
 id: process.household-shopping
 type: [process]
 status: active
+scope: iteration
 related:
-  - [context.scenario](context.scenario.md)
-  - [scope.iteration](scope.iteration.md)
-  - [vocabulary.domain](vocabulary.domain.md)
-  - [building.artifact](building.artifact.md)
+  - belongs to [context.scenario](../understanding/context.scenario.md)
+  - is improved by [scope.iteration](../understanding/scope.iteration.md)
+  - gives terms to [vocabulary.domain](../vocabulary.domain.md)
+  - is improved by [proposal.solution](../planning/proposal.solution.md)
 
 ---
 
@@ -22,7 +23,7 @@ flowchart TD
   Problem{¿Hay tiempo, energía y foco?}
 
   MercApp[Se entra a la aplicación de mercado]
-  CarReco[Reconstruir lista manualmente en el carro]
+  CarReco[Reconstruir lista manualmente en base a historial]
   BuyCar[[Comprar carro]]
 
   DelayPrep{{Se posterga la compra}}
@@ -76,5 +77,5 @@ Este documento ayuda a justificar que el primer Slice-First debe enfocarse en pr
 1. Usar este proceso como base para definir el flujo actualizado.
 2. Documentar oportunidades de mejora futura sin convertirla todavía en alcance obligatorio.
 3. Definir y construir el primer Slice-First para aplacar el problema.
-4. Documentar notas de validación
+4. Documentar notas de validación post-entrega.
 

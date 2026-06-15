@@ -3,9 +3,10 @@
 id: context.scenario
 type: [context]
 status: active
+scope: iteration
 related:
-  - [scope.iteration](scope.iteration.md)
-  - [process.household-shopping](process.household-shopping.md)
+  - contains [scope.iteration](scope.iteration.md)
+  - has [process.household-shopping](../contextualizing/process.household-shopping.md)
 
 ---
 
@@ -39,5 +40,5 @@ El problema actual es que la intención de compra mensual debe existir antes del
 2. Documentar vocabulario utilizado.
 3. Documentar el proceso actual de compra mensual.
 4. Documentar oportunidades de mejora futura sin convertirla todavía en alcance obligatorio.
-5. Construir solución y hacer entrega para aplacar el problema
-6. Documentar notas de validación
+5. Definir y construir el primer Slice-First para aplacar el problema.
+6. Documentar notas de validación post-entrega.

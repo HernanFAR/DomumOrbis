@@ -5,11 +5,9 @@ type: domain-vocabulary
 status: active
 scope: iteration
 related:
-  - [context.scenario](context.scenario.md)
-  - [scope.iteration](scope.iteration.md)
-  - [process.household-shopping](process.household-shopping.md)
-  - [improvement.future-evolution](improvement.future-evolution.md)
-  - [implementation.artifact](implementation.artifact.md)
+  - extracts from [context.scenario](understanding/context.scenario.md)
+  - is contained by [scope.iteration](understanding/scope.iteration.md)
+  - extracts from [process.household-shopping](contextualizing/process.household-shopping.md)
 
 ---
 

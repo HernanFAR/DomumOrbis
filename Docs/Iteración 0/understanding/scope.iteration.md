@@ -3,9 +3,11 @@
 id: context.iteration
 type: [scope]
 status: active
+scope: iteration
 related:
-  - [context.scenario](context.scenario.md)
-  - [process.household-shopping](process.household-shopping.md)
+  - is contained by [context.scenario](context.scenario.md)
+  - will improve [process.household-shopping](../contextualizing/process.household-shopping.md)
+  - contains [vocabulary.domain](../vocabulary.domain.md)
 
 ---
 
@@ -34,5 +36,5 @@ Estos contexto es importante para poder resolver este problema de forma eficient
 1. Documentar vocabulario utilizado.
 2. Documentar el proceso actual de compra mensual.
 3. Documentar oportunidades de mejora futura sin convertirla todavía en alcance obligatorio.
-4. Construir solución y hacer entrega para aplacar el problema
-5. Documentar notas de validación
+4. Definir y construir el primer Slice-First para aplacar el problema.
+5. Documentar notas de validación post-entrega.
