@@ -5,11 +5,10 @@ type: [improvement]
 status: active
 scope: stage
 related:
-
-* details from [proposal.solution](proposal.solution.md)
-* will improve [process.household-shopping](../contextualizing/process.household-shopping.md)
-* uses [vocabulary.domain](../vocabulary.domain.md)
-* is contained by [scope.iteration](../understanding/scope.iteration.md)
+  - details from [proposal.solution](proposal.solution.md)
+  - will improve [process.household-shopping](../contextualizing/process.household-shopping.md)
+  - uses [vocabulary.domain](../vocabulary.domain.md)
+  - is contained by [scope.iteration](../understanding/scope.iteration.md)
 
 ---
 
