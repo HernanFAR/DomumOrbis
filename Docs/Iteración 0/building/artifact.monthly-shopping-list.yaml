@@ -1,0 +1,14 @@
+version: 1
+
+nombre: lista despensa
+mercados:
+  - nombre: sample
+    urlBase: https://sample.cl
+    productos:
+      - nombre: Arroz
+        url: https://www.sample.cl/supermercado/product/example
+        cantidad: 2
+
+      - nombre: Plátano
+        url: https://www.sample.cl/supermercado/product/example
+        peso: 1.5
